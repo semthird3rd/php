@@ -1,0 +1,36 @@
+<html lang="en">
+<body>
+
+<h2>Registration Form</h2>
+
+<form action="r.php" method="post">
+    
+    <label for="firstName">First Name:</label><br>
+    <input type="text" id="firstName" name="firstName" required><br>
+    
+    <label for="lastName">Last Name:</label><br>
+    <input type="text" id="lastName" name="lastName" required><br>
+    
+    <input type="checkbox" id="subscribe" name="subscribe" value="Yes">
+    <label for="subscribe">Subscribe to newsletter</label><br>
+   
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+    
+    
+    <label for="city">city:</label><br>
+    <select id="city" name="city">
+        <option value="shirpur">shirpur</option>
+        <option value="pune">pune</option>
+        <option value="indore">indore</option>  
+    </select><br>
+    
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
